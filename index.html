@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
+  <link rel="stylesheet" href="style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,17 +17,51 @@
   </style>
 </head>
 <body>
+  <img src="images/bg-desktop.png" alt="" class="bg-image">
+  <div class="container">
+    <div class = "first-div">
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="files">
+        <div class="files-item">
+          <img src="images/icon-document.svg" alt="">
+        </div>
+        <div class="files-item">
+          <img src="images/icon-folder.svg" alt="">
+        </div>
+        <div class="files-item">
+          <img src="images/icon-upload.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class = "second-div">
 
-  You’ve used 815 GB of your storage
+      <div class="tooltip">
+        <span>
+          185
+        </span>
+        GB LEFT
+        <div class="arrow"></div>
+      </div>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <p class="text">
+        You've used <strong>815 GB</strong> of your storage
+      </p>
+
+      <div class="load-bar">
+        <div class="loading">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="load-info">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div>
+    </div>
   </div>
+
+
 </body>
 </html>

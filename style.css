@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #0C122C;
+}
+
+.bg-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-end;
+}
+.container .first-div {
+  width: 50rem;
+  height: 30rem;
+  background: #1E2C69;
+  margin-right: 4rem;
+  border-radius: 2rem;
+  border-top-right-radius: 15rem;
+}
+.container .first-div .logo img {
+  width: 20rem;
+  margin: 5rem;
+}
+.container .first-div .files {
+  display: flex;
+}
+.container .first-div .files .files-item {
+  width: 8rem;
+  height: 8rem;
+  background: #0C122C;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.container .first-div .files .files-item img {
+  height: 3rem;
+}
+.container .first-div .files .files-item:nth-child(1) {
+  margin-left: 5rem;
+}
+.container .first-div .files .files-item:nth-child(1) img {
+  height: 3.5rem;
+}
+.container .second-div {
+  border-radius: 2rem;
+  width: 70rem;
+  height: 25rem;
+  background: #1E2C69;
+  position: relative;
+  padding: 5rem;
+}
+.container .second-div .tooltip {
+  position: absolute;
+  right: 5rem;
+  top: -20%;
+  width: 20rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: sans-serif;
+  color: grey;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+.container .second-div .tooltip span {
+  font-weight: 900;
+  color: #000;
+  font-size: 4rem;
+  margin-right: 0.5rem;
+}
+.container .second-div .tooltip .arrow {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  border: 3rem solid white;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.container .second-div .text {
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+.container .second-div .load-bar {
+  width: 100%;
+  background: #0C122C;
+  padding: 0.5rem;
+  height: 3.5rem;
+  margin-top: 2rem;
+  border-radius: 4rem;
+}
+.container .second-div .load-bar .loading {
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(to right, #ffb3b3, #FF6666);
+  border-radius: 4rem;
+  padding: 0.2rem;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .second-div .load-bar .loading span {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  border-radius: 50%;
+}
+.container .second-div .load-info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
